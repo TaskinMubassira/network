@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C C:/Users/Mashrif/AppData/Local/Temp/claude/c--Users-Mashrif-Desktop-cyber-security/a8156a27-de28-4e2e-bef2-cc77260b2016/scratchpad/work/TaskinMubassira.git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push --force origin refs/heads/*:refs/heads/*)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(git -C C:/Users/Mashrif/AppData/Local/Temp/claude/c--Users-Mashrif-Desktop-cyber-security/a8156a27-de28-4e2e-bef2-cc77260b2016/scratchpad/work/TaskinMubassira.git remote -v)",
+      "Bash(gh api *)",
+      "Bash(gh repo *)",
+      "Bash(curl -sI https://ghchart.rshah.org/0f766e/TaskinMubassira)"
+    ]
+  }
+}

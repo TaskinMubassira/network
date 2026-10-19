@@ -1,0 +1,15 @@
+[project]
+name = "nta"
+version = "0.1.0"
+description = "Network traffic analyzer: summarise PCAP captures and detect port scans, host sweeps, beaconing and DNS tunneling"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+nta = "nta.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
